@@ -1,6 +1,6 @@
 <?php  
 
-	$conn = mysqli_connect("localhost","id14596380_root","Y{8wXAAAV4+94cun","id14596380_db_bipolar");
+	$conn = mysqli_connect("localhost","root","","bipolar");
 
 	function query($query){
 		global $conn;
